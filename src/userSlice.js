@@ -35,7 +35,7 @@ export const userSlice = createSlice({
     })
 
   },
-  reducers:{
+  reducers: {
     changeButton:(state)=>{
       state.userbtn=!state.userbtn
       state.detailsbtn=!state.detailsbtn
